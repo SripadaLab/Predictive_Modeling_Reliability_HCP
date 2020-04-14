@@ -33,3 +33,11 @@ The code provided in this repository was run on the following environment
 * sciPy 1.3.1
 * scikit-learn 0.22.2
 * rpy2 2.9.1
+
+
+### Results
+
+![Figure 1](./misc/figure_1.jpg)
+![Table 1](./misc/table_1.jpg)
+
+
