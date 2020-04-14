@@ -20,7 +20,7 @@ Test-retest reliability is critical for individual differences research. We appl
    * [sess1_matrix.pickle](./data/sess1_matrix.pickle) - Subject connectomes from run 1
    * [sess2_matrix.pickle](./data/sess2_matrix.pickle) - Subject connectomes from run 2
    * [folds.pickle](./data/folds.pickle) - Fold indices used for cross validation
-   * [factors.csv](./data/factors.csv) - General executive and processing dpeed factors of HCP variables
+   * [factors.csv](./data/factors.csv) - General executive and processing speed factors of HCP variables
    * [edge_iccs.txt](./data/edge_iccs.txt) - Mean edgewise ICCs across phenotypes
 
 
