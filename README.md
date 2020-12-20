@@ -39,3 +39,8 @@ The code provided in this repository was run on the following environment
 ![Figure 1](./misc/figure_1.jpg)
 
 
+### Distribution of test–retest reliabilities for predictive models for volumetric and grayordinate data
+![Figure 2](./misc/figure_2.jpg)
+
+### Test–retest reliabilities for predicted outcomes across run-lengths and FD thresholds
+![Figure 3](./misc/figure_3.jpg)
