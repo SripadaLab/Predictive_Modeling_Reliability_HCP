@@ -1,9 +1,9 @@
 # Predictive Modeling Achieves High Test-Retest Reliability with Resting State Functional Connectivity
 
-### Chandra Sripada, Aman Taxali, Mike Angstadt, Saige Rutherford
+### Aman Taxali, Mike Angstadt, Saige Rutherford, Chandra Sripada
 #### Department of Psychiatry, University of Michigan, Ann Arbor, MI 
 
-Paper Link: https://www.biorxiv.org/content/10.1101/796714v3
+Paper Link: https://www.biorxiv.org/content/10.1101/796714v4
 
 Test-retest reliability is critical for individual differences research. We apply ten predictive modeling methods to resting state connectivity maps from the Human Connectome Project dataset to predict 61 outcome variables. In contrast to reliability of individual resting state connections, we find reliability of the predicted outcomes of predictive models is substantially higher for all ten predictive modeling methods.
 
