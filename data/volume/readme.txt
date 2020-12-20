@@ -1,4 +1,4 @@
-Due to github's file size limits, the main tarfile is hosted on box, please download 'volume_connectomes.tar.gz' (filesize = 2.35 gb). using the following link:
+Due to github's file size limits, the main volume-data tarfile is hosted on box, please download 'volume_connectomes.tar.gz' (filesize = 2.35 gb). using the following link:
 https://umich.box.com/s/skhmo7twdtavdagm7h5kr93oc33sc1by
 
 The tarfile "volume_connectomes.tar.gz" contains 12 .pickle files. 
