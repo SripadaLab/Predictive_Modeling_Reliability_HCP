@@ -34,13 +34,14 @@ The code provided in this repository was run on the following environment
 * scikit-learn 0.22.2
 * rpy2 2.9.1
 
-
+---
 ### Pipeline for calculating test–retest reliability of predicted outcomes
 ![Figure 1](./misc/figure_1.jpg)
 
-
+---
 ### Distribution of test–retest reliabilities for predictive models for volumetric and grayordinate data
 ![Figure 2](./misc/figure_2.jpg)
 
+---
 ### Test–retest reliabilities for predicted outcomes across run-lengths and FD thresholds
 ![Figure 3](./misc/figure_3.jpg)
