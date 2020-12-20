@@ -13,17 +13,15 @@ Test-retest reliability is critical for individual differences research. We appl
    * [train_models.ipynb](./notebooks/train_models.ipynb) - Contains the code to train predictive models and save model results (ICC, accuracy, predictions)
    * [visualize_results.ipynb](./notebooks/train_models.ipynb) - Creates visualizations used in the paper, uses saved model results 
  * [saved_models](./saved_models)
-   * [cifti](./saved_models/cifti/)
-     * [cifti_saved_models.tar.gz](./saved_models/cifti/cifti_saved_models.tar.gz) - tarfile containing outputs of train_models.ipynb for grayordinate data
-   * [volume](./saved_models/volume/)
-     * [volume_saved_models.tar.gz](./saved_models/cifti/volume_saved_models.tar.gz) - tarfile containing outputs of train_models.ipynb for volumetric data
+   * [cifti/cifti_saved_models.tar.gz](./saved_models/cifti/cifti_saved_models.tar.gz) - tarfile containing outputs of `train_models.ipynb` for grayordinate data
+   * [volume/volume_saved_models.tar.gz](./saved_models/volume/volume_saved_models.tar.gz) - tarfile containing outputs of `train_models.ipynb` for volumetric data
+   * [edgewise](./saved_models/edgewise) - Directory containing ICC values for raw connectome edges (not a predictive model)
  * [data](./data)
-   * [sess1_matrix.pickle](./data/sess1_matrix.pickle) - Subject connectomes from run 1
-   * [sess2_matrix.pickle](./data/sess2_matrix.pickle) - Subject connectomes from run 2
-   * [folds.pickle](./data/folds.pickle) - Fold indices used for cross validation
+   * [cifti](./data/cifti) Grayordinate FC data, used in `train_models.ipynb` to train predictive models
+   * [volume](./data/volume) Volumetric FC data, used in `train_models.ipynb` to train predictive models
+   * [folds.pickle](./data/folds.pickle) - Fold indices used for each cross validation step
    * [factors.csv](./data/factors.csv) - General executive and processing speed factors of HCP variables
-   * [edge_iccs.txt](./data/edge_iccs.txt) - Mean edgewise ICCs across phenotypes
-
+ * [misc](./misc) - Figures 1, 2 and 3, displayed in readme
 
 ### Dependencies
 
