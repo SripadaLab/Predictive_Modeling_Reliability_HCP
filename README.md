@@ -35,9 +35,7 @@ The code provided in this repository was run on the following environment
 * rpy2 2.9.1
 
 
-### Results
-
-![Figure 1](./misc/figure_1.jpg)
-![Table 1](./misc/table_1.jpg)
+### Pipeline for calculating test–retest reliability of predicted outcomes
+![Figure 1](./misc/figure_1.tif)
 
 
