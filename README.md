@@ -11,7 +11,7 @@ Test-retest reliability is critical for individual differences research. We appl
 
  * [notebooks](./notebooks)
    * [train_models.ipynb](./notebooks/train_models.ipynb) - Contains the code to train predictive models and save model results (ICC, accuracy, predictions)
-   * [visualize_results.ipynb](./notebooks/train_models.ipynb) - Creates visualizations used in the paper, uses saved model results 
+   * [visualize_results.ipynb](./notebooks/train_models.ipynb) - Creates visualizations and tables used in the paper, uses saved model results 
  * [saved_models](./saved_models)
    * [cifti/cifti_saved_models.tar.gz](./saved_models/cifti/cifti_saved_models.tar.gz) - tarfile containing outputs of `train_models.ipynb` for grayordinate data
    * [volume/volume_saved_models.tar.gz](./saved_models/volume/volume_saved_models.tar.gz) - tarfile containing outputs of `train_models.ipynb` for volumetric data
@@ -22,6 +22,15 @@ Test-retest reliability is critical for individual differences research. We appl
    * [folds.pickle](./data/folds.pickle) - Fold indices used for each cross validation step
    * [factors.csv](./data/factors.csv) - General executive and processing speed factors of HCP variables
  * [misc](./misc) - Figures 1, 2 and 3, displayed in readme
+
+### Instruction for Setup
+1. Clone this repository on your computer
+2. Use the instructions provided in [./data/cifti/readme.txt](./data/cifti/readme.txt) and [./data/volume/readme.txt](./data/volume/readme.txt) to download and extract the connectome data
+3. Download the unrestricted and restricted HCP behavioral data from http://db.humanconnectome.org and save these csv's in [./data](./data)
+4. You can now use `notebooks/train_models.ipynb` to generate predictive modeling results for any one of the following combinations 
+   {volume, grayordinate} x {BBS75, BBSCV, Lasso, ... , Random Forest} x {29, 15, 7.5 total scan length} x {.5, .2 FD thresholding}
+5. If you're interested in exploring our saved results, extract the tarfiles `cifti/cifti_saved_models.tar.gz` and `volume/volume_saved_models.tar.gz` in the same directories as the tarfiles
+6. Use `./notebooks/visualize_results.ipynb` to explore the saved modeling results
 
 ### Dependencies
 
@@ -35,12 +44,15 @@ The code provided in this repository was run on the following environment
 
 ---
 ### Pipeline for calculating test–retest reliability of predicted outcomes
+
 ![Figure 1](./misc/figure_1.jpg)
 
 ---
 ### Distribution of test–retest reliabilities for predictive models for volumetric and grayordinate data
+
 ![Figure 2](./misc/figure_2.jpg)
 
 ---
 ### Test–retest reliabilities for predicted outcomes across run-lengths and FD thresholds
+
 ![Figure 3](./misc/figure_3.jpg)
