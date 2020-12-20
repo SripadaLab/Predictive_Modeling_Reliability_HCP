@@ -17,8 +17,8 @@ Test-retest reliability is critical for individual differences research. We appl
    * [volume/volume_saved_models.tar.gz](./saved_models/volume/volume_saved_models.tar.gz) - tarfile containing outputs of `train_models.ipynb` for volumetric data
    * [edgewise](./saved_models/edgewise) - Directory containing ICC values for raw connectome edges (not a predictive model)
  * [data](./data)
-   * [cifti](./data/cifti) Grayordinate FC data, used in `train_models.ipynb` to train predictive models
-   * [volume](./data/volume) Volumetric FC data, used in `train_models.ipynb` to train predictive models
+   * [cifti](./data/cifti) - Grayordinate FC data, used in `train_models.ipynb` to train predictive models
+   * [volume](./data/volume) - Volumetric FC data, used in `train_models.ipynb` to train predictive models
    * [folds.pickle](./data/folds.pickle) - Fold indices used for each cross validation step
    * [factors.csv](./data/factors.csv) - General executive and processing speed factors of HCP variables
  * [misc](./misc) - Figures 1, 2 and 3, displayed in readme
