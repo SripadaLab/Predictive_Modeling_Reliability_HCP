@@ -23,7 +23,7 @@ Test-retest reliability is critical for individual differences research. We appl
    * [factors.csv](./data/factors.csv) - General executive and processing speed factors of HCP variables
  * [misc](./misc) - Figures 1, 2 and 3, displayed in readme
 
-### Instruction for Setup
+### Instructions for Setup
 1. Clone this repository on your computer
 2. Use the instructions provided in [./data/cifti/readme.txt](./data/cifti/readme.txt) and [./data/volume/readme.txt](./data/volume/readme.txt) to download and extract the connectome data
 3. Download the unrestricted and restricted HCP behavioral data from http://db.humanconnectome.org and save these csv's in [./data](./data)
