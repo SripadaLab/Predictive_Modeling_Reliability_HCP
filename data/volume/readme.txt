@@ -6,5 +6,5 @@ One pickle file for each of the following combinations - {15, 7, 3 minutes} x {d
 
 Each pickle file contains a list of subject names and the upper-triangular matrix values for the functional connectomes for these subjects.
 
-Please extract the contents of 'cifti_connectomes.tar.gz' into the current directory (Predictive_Modeling_Reliability_HCP/data/cifti) using the following command:
+Please extract the contents of 'volume_connectomes.tar.gz' into the current directory (Predictive_Modeling_Reliability_HCP/data/volume) using the following command:
 tar -xvf volume_connectomes.tar.gz
