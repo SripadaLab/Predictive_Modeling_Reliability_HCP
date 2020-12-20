@@ -36,6 +36,6 @@ The code provided in this repository was run on the following environment
 
 
 ### Pipeline for calculating test–retest reliability of predicted outcomes
-![Figure 1](./misc/figure_1.tif)
+![Figure 1](./misc/figure_1.jpg)
 
 
