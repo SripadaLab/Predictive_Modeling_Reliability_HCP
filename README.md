@@ -15,7 +15,7 @@ Test-retest reliability is critical for individual differences research. We appl
  * [saved_models](./saved_models)
    * [cifti/cifti_saved_models.tar.gz](./saved_models/cifti/cifti_saved_models.tar.gz) - tarfile containing outputs of `train_models.ipynb` for grayordinate data
    * [volume/volume_saved_models.tar.gz](./saved_models/volume/volume_saved_models.tar.gz) - tarfile containing outputs of `train_models.ipynb` for volumetric data
-   * [edgewise](./saved_models/edgewise) - Directory containing ICC values for raw connectome edges (not a predictive model)
+   * [edgewise](./saved_models/edgewise) - Directory containing ICC values for raw connectome edges (day1_fc vs day2_fc, not a predictive model)
  * [data](./data)
    * [cifti](./data/cifti) - Grayordinate FC data, used in `train_models.ipynb` to train predictive models
    * [volume](./data/volume) - Volumetric FC data, used in `train_models.ipynb` to train predictive models
