@@ -30,7 +30,7 @@ Test-retest reliability is critical for individual differences research. We appl
 4. You can now use `./notebooks/train_models.ipynb` to generate predictive modeling results for any one of the following combinations:
 
    {volume, grayordinate} x {BBS75, BBSCV, Lasso, ... , Random Forest} x {29, 15, 7.5 total scan length} x {.5, .2 FD thresholding}
-5. If you're interested in exploring our saved results, extract the tarfiles `cifti/cifti_saved_models.tar.gz` and `volume/volume_saved_models.tar.gz` in the same directories as the tarfiles
+5. If you're interested in exploring our saved results, extract the tarfiles `./saved_models/cifti/cifti_saved_models.tar.gz` and `./saved_models/volume/volume_saved_models.tar.gz` in the same directories as the tarfiles
 6. Use `./notebooks/visualize_results.ipynb` to explore the saved modeling results
 
 ### Dependencies
