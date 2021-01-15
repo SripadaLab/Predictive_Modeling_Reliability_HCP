@@ -3,7 +3,7 @@
 ### Aman Taxali, Mike Angstadt, Saige Rutherford, Chandra Sripada
 #### Department of Psychiatry, University of Michigan, Ann Arbor, MI 
 
-Publication Link: [Free Access Cerebral Cortex](https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhaa390/6098254?guestAccessKey=9c90fbe2-274e-47e2-a756-02c2fa131630)
+Publication Link: [Cerebral Cortex (bhaa390)](https://academic-oup-com.proxy.lib.umich.edu/cercor/advance-article/doi/10.1093/cercor/bhaa390/6098254)
 
 Biorxiv Link: https://www.biorxiv.org/content/10.1101/796714v4
 
