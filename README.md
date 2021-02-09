@@ -13,7 +13,7 @@ Test-retest reliability is critical for individual differences research. We appl
 
  * [notebooks](./notebooks)
    * [train_models.ipynb](./notebooks/train_models.ipynb) - Contains the code to train predictive models and save model results (ICC, accuracy, predictions)
-   * [visualize_results.ipynb](./notebooks/train_models.ipynb) - Creates visualizations and tables used in the paper, uses saved model results 
+   * [visualize_results.ipynb](./notebooks/visualize_results.ipynb) - Creates visualizations and tables used in the paper, uses saved model results 
  * [saved_models](./saved_models)
    * [cifti/cifti_saved_models.tar.gz](./saved_models/cifti/cifti_saved_models.tar.gz) - tarfile containing outputs of `train_models.ipynb` for grayordinate data
    * [volume/volume_saved_models.tar.gz](./saved_models/volume/volume_saved_models.tar.gz) - tarfile containing outputs of `train_models.ipynb` for volumetric data
