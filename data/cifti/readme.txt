@@ -1,5 +1,5 @@
 Due to github's file size limits, the main cifti-data tarfile is hosted on box, please download 'cifti_connectomes.tar.gz' (filesize = 5.52 gb). using the following link:
-https://umich.box.com/s/5pw7xwzymbkmivauys1q1uljmfgmczxe
+https://www.dropbox.com/s/8dia1sqjkb64x3y/cifti_connectomes.tar.gz?dl=0
 
 The tarfile "cifti_connectomes.tar.gz" contains 12 .pickle files. 
 One pickle file for each of the following combinations - {15, 7, 3 minutes} x {day 1, 2} x {5, 2 fd thresholding}
